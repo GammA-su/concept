@@ -1,0 +1,49 @@
+var playbtn;
+var backplay;
+var player;
+var play = false;
+var xplayer = 20;
+var yplayer = 20;
+var xs = 10;
+var ys = 10;
+
+
+function preload() {
+  playbtn = loadImage("assets/playbtn.png");
+  backplay = loadImage("assets/backga.png")
+  player = loadImage("assets/playerimg.png")
+  restartbtn = loadImage("assets/restartbtn.png")
+
+
+}
+
+function menu(){
+    textFont("Roboto");
+    background(102);
+    image(playbtn, 350,200);
+    textSize(50);  
+    text("Welcome to Concept", 140, 80);
+    textSize(29);
+    text("Play",348,284);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function draw(){
+    noLoop();
+}
